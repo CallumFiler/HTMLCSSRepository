@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="LordoftheRingsMain.css">
+</head>
+<body>
+  <!-- Header for the page -->
+<header>
+  <h1>
+    My Favourite Story: The Lord of the Rings: The Fellowship of the Ring
+  </h1>
+</header>
+
+<!-- description of tags used in an ordered list-->
+<div>
+  <p>The 5 tags used in this project are as follows:</p>
+  <ol>
+    <li>
+      <code>&lt;address&gt;&lt;/address&gt</code> - This tag is used to define the contact information of the author/owner of a document or article.
+    </li>
+    <li>
+      <code>&lt;audio&gt;&lt/audio&gt;</code> - This tag is used to embed sound content in an HTML or XHTML document.
+    </li>
+    <li>
+      <code>&lt;button&gt;&lt;/button&gt</code> - This tag is used to create a clickable button.
+    </li>
+    <li>
+      <code>&lt;cite&gt;&lt;/cite&gt;</code> - This tag is used to define the title of a work.
+    </li>
+    <li>
+      <code>&lt;del&gt;&lt;/del&gt;</code> - This tag is used to define text that has been deleted from a document.
+    </li>
+  </ol>
+</div>
+
+<!-- Main content of the page -->
+<!-- Section 1: Introduction to the story -->
+ <h2>Introduction</h2>
+ In "The Fellowship of the Ring," the first book of The Lord of the Rings, 
+ a young hobbit named Frodo Baggins inherits the One Ring, 
+ a powerful and evil artifact sought by the Dark Lord Sauron. 
+ To prevent Sauron from reclaiming it and conquering Middle-earth,
+Frodo must leave his home and embark on a dangerous journey to destroy the Ring.
+
+<!-- Section 2: Using the address tag -->
+<address>
+  <h2>Frodo's Address:</h2>
+  <p>
+    Frodo Baggins<br>
+    Bag End<br>
+    Hobbiton<br>
+    The Shire
+</address>
+
+<!-- Section 3: Using the audio tag -->
+
+<h2>Music from the first story</h2>
+<p>This song is sung by Gandalf when arriving in hobbiton and Bilbo when he leaves for Rivendale. The full score is also incredibly done by Howard Shore. Click the play button to listen to the music from the first story:</p>
+<audio controls>
+  <source src="LOTR.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<!-- Section 4: Using the button tag -->
+<h2>Quiz time!!</h2>
+<p>
+  Test your knowledge of The Fellowship of the Ring with this quiz:
+  <ol>
+    <li> 
+      What is the name of Bilbo's rude inlaws?
+      <button type="button" onclick="alert('The Sackville-Bagginses')">Show Answer</button>
+    </li>
+    <li> 
+      In the book, who do Frodo, Sam and Pippin meet on the road when they first set out?
+      <button type="button" onclick="alert('The elves travelling west')">Show Answer</button>
+    </li>
+    <li>
+      What did Sean Astin stand on at the end of the movie?
+      <button type="button" onclick="alert('A piece of glass')">Show Answer</button>
+    </li>
+  </ol>
+</p>
+<!-- Section 5: Using the cite tag -->
+<h2>References</h2>
+<p>
+  <ul>
+  <li>
+    The Lord of the Rings: The Fellowship of the Ring. Dir. Peter Jackson. New Line Cinema, 2001.
+    <cite>IMDb</cite>
+  </li>
+  <li>
+    The Lord of the Rings: The Fellowship of the Ring. <cite>J.R.R. Tolkien. Houghton Mifflin Harcourt, 1954</cite>.
+  </li>
+  </ul>
+</p>
+<!-- Section 6: Using the del tag -->
+
+<div>
+<h2>Boromir</h2>
+Unfortunately, Boromir gets <del>deleted</del> from the story. 
+He is a valiant warrior from Gondor who tries to take the Ring from Frodo, 
+but redeems himself by sacrificing his life to save Merry and Pippin from the orcs.
+</div>
+<!-- iframe tag-->
+<h1>More Information (wikipedia)</h1>
+
+<iframe src="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings" title="W3Schools Free Online Web Tutorials">
+</iframe>
+
+<!-- form tag -->
+<h1>Subscribe to the Sauron News Network!</h1>
+<!-- form crashes page as doesn't go anywhere-->
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="ring">Do you own any shiny gold rings:</label>
+  <input type="text" id="ring" name="ring"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
